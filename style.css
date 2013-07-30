@@ -1,5 +1,7 @@
 body {
 	background-color: #F0F0F0;
+	margin: 0;
+	padding: 0;
 }
 
 a.noDecorations {
@@ -9,9 +11,11 @@ a.noDecorations {
 
 div.box {
 	width: 640px;
-	position: absolute;
-	left: 50%;
-	margin: 0px -300px;
+	height: 90%;
+	border: solid 1px #CCCCCC;
+	margin: 10px auto;
+	padding: 10px;
+	position: relative;
 }
 
 a.bts:link, a.bts:visited {
@@ -26,4 +30,10 @@ a.bts:hover {
 	font-face: arial;
 	font-size: 20;
 	text-decoration: underline;
+}
+
+div.footer {
+	position: absolute;
+	bottom: 10px;
+	width: 640px;
 }
