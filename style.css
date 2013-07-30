@@ -1,0 +1,29 @@
+body {
+	background-color: #F0F0F0;
+}
+
+a.noDecorations {
+	color: #000000;
+	text-decoration: none;
+}
+
+div.box {
+	width: 640px;
+	position: absolute;
+	left: 50%;
+	margin: 0px -300px;
+}
+
+a.bts:link, a.bts:visited {
+	color: black;
+	font-face: arial;
+	font-size: 20;
+	text-decoration: none;
+}
+
+a.bts:hover {
+	color: green;
+	font-face: arial;
+	font-size: 20;
+	text-decoration: underline;
+}
